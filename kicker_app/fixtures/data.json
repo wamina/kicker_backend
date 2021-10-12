@@ -1,7 +1,18 @@
 [{
-    "pk": 1,
-    "model": "kicker_app.spiel",
-    "fields": {
-
+        "pk": 1,
+        "model": "kicker_app.player",
+        "fields": {
+            "name": "Petra Augustin",
+            "standort": "Würzburg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "kicker_app.player",
+        "fields": {
+            "name": "Matthias Berthold",
+            "standort": "München"
+        }
     }
-}]
+
+]

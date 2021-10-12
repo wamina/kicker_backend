@@ -1,6 +1,6 @@
 from django.db import models
 
-class Spiel(models.Model):
+class Game(models.Model):
     datetime = models.CharField(max_length=200)
     standort = models.CharField(max_length=200)
     modus = models.CharField(max_length=200)
@@ -12,8 +12,9 @@ class Spiel(models.Model):
     # position spieler
     # ergebnis
 
-class Spieler(models.Model):
+class Player(models.Model):
     name = models.CharField(max_length=200)
+    standort = models.CharField(max_length=200, default="Berlin")
     # name
     # standort
     # auswertung

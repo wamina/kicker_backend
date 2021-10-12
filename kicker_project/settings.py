@@ -161,3 +161,12 @@ REST_FRAMEWORK = {
     ),
     'TEST_REQUEST_DEFAULT_FORMAT': 'vnd.api+json'
 }
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:8000',
+    'http://127.0.0.1:5500',
+]
+CORS_TRUSTED_ORIGINS = [
+    'http://localhost:8000',
+    'http://127.0.0.1:5500',
+]

@@ -13,6 +13,40 @@
             "name": "Matthias Berthold",
             "standort": "München"
         }
+    },
+    {
+        "pk": 3,
+        "model": "kicker_app.player",
+        "fields": {
+            "name": "Sarah Clemens",
+            "standort": "München"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "kicker_app.player",
+        "fields": {
+            "name": "Julian Drechsler",
+            "standort": "Berlin"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "kicker_app.game",
+        "fields": {
+            "standort": "München",
+            "datetime": "",
+            "player1": "Petra Augustin",
+            "posP1": "vorne",
+            "player2": "Matthias Berthold",
+            "posP2": "hinten",
+            "player3": "Sarah Clemens",
+            "posP3": "vorne",
+            "player4": "Julian Drechsler",
+            "posP4": "hinten",
+            "winner1": "Sarah Clemens",
+            "winner2": "Julian Drechsler"
+        }
     }
 
 ]

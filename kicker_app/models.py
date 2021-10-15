@@ -1,5 +1,4 @@
 from django.db import models
-from datetime import datetime
 
 class Game(models.Model):
     standort = models.CharField(max_length=200, default="Berlin")

@@ -13,18 +13,12 @@ class Game(models.Model):
     posP4 = models.CharField(max_length=200, default="vorne/hinten")
     winner1 = models.CharField(max_length=200, default="Max Mustermann")
     winner2 = models.CharField(max_length=200, default="Max Mustermann")
-    # datum, uhrzeit
-    # standort
     # modus
-    # teammitglieder
-    # position spieler
-    # ergebnis
+   
 
 
 class Player(models.Model):
     name = models.CharField(max_length=200)
     standort = models.CharField(max_length=200, default="Berlin")
-    # name
-    # standort
     # auswertung
     # rangliste
